@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">快看漫画个人版</string>
+
+    <string name="tab_home">漫画</string>
+    <string name="tab_find">发现</string>
+    <string name="tab_feed">V社区</string>
+    <string name="tab_me">我的</string>
+    <string name="guanzhu">关注</string>
+    <string name="remen">热门</string>
+    <string name="title_activity_item_all_scrolling">ItemAllScrollingActivity</string>
+    <string name="large_text"></string>
+</resources>

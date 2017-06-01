@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="horizontal"
+    android:background="#ffffff">
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_rg">
+
+        <RadioButton
+            android:checked="true"
+            android:drawableTop="@drawable/tab_home_selector"
+            android:text="漫画"
+            style="@style/rb_home_style"
+            android:id="@+id/tab_rb_home"/>
+
+        <RadioButton
+            android:drawableTop="@drawable/tab_find_selector"
+            android:text="发现"
+            style="@style/rb_home_style"
+            android:id="@+id/tab_rb_find"/>
+
+        <RadioButton
+            android:drawableTop="@drawable/tab_community_selector"
+            android:text="V社区"
+            style="@style/rb_home_style"
+            android:id="@+id/tab_rb_community"/>
+
+        <RadioButton
+            android:drawableTop="@drawable/tab_me_selector"
+            android:text="我的"
+            style="@style/rb_home_style"
+            android:id="@+id/tab_rb_my"/>
+
+    </RadioGroup>
+
+</LinearLayout>

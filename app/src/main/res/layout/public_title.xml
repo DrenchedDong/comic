@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RadioGroup
+       android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:id="@+id/title_rg"
+       android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:textColor="@drawable/title_text_selector"
+            android:gravity="center"
+            android:background="@drawable/title_left_selector"
+            android:button="@null"
+            android:id="@+id/title_focus"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="关注"
+            android:textSize="15sp"/>
+        <RadioButton
+            android:checked="true"
+            android:textColor="@drawable/title_text_selector"
+            android:gravity="center"
+            android:background="@drawable/title_right_selector"
+            android:button="@null"
+            android:id="@+id/title_hot"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="热门"
+            android:textSize="15sp"/>
+
+    </RadioGroup>
+
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/search_selector"/>
+
+</RelativeLayout>
